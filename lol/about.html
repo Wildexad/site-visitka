@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Услуги</title>
+  <link rel="stylesheet" href="style3.css">
+  <script type="text/javascript" src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1 class="titleh1">Сайт-визитка</h1>
+    <nav>
+        <a href="about.html">Сервисы и услуги</a>
+        <a href="main.html">Главная</a>
+        <a href="contact.html">Контакты</a>
+    </nav>
+    <button id="themeButton">Сменить тему</button>
+  </header>
+  <main>
+    <section>
+      <h2>Сервисы и Услуги</h2>
+      <div class="service">
+        <h3>Разработка веб-сайтов</h3>
+        <p> Создание современного и адаптивного веб-сайта под ключ</p>
+        <p class="price">Цена: 50р</p>   <button class="add-to-cart" data-price="50">Добавить в корзину</button>
+      </div>
+      <div class="service">
+        <h3>Обьективная критика</h3>
+        <p>Проверка и оценка вашей работы</p>
+        <p class="price">Цена:30р</p>   <button class="add-to-cart" data-price="30">Добавить в корзину</button>
+      </div>
+      <div class="service">
+        <h3>Дипломная работа</h3>
+        <p>Написание дипломной работы меньше чем за 20 минут</p>
+        <p class="price">Цена: 15р</p>   <button class="add-to-cart" data-price="15">Добавить в корзину</button>
+      </div>
+      <div class="service">
+      <h3>Моральная поддержка</h3>
+      <p> Создание максимально комфортных условий для работы и постоянная моральная поддержка</p>
+      <p class="price">Цена: 150р</p>        <button class="add-to-cart" data-price="150">Добавить в корзину</button>
+    </div>
+
+    <!-- Добавьте другие услуги по аналогии -->
+
+    <div id="cart">
+      <h3>Корзина услуг</h3>
+      <ul id="cart-items"></ul>
+      <p id="total">Итого: 0р</p>
+      <button id="checkout">Оплатить</button>
+    </div>
+  </section>
+</main>
+
+</body>
+</html>
